@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Kafka_Broker": "",
+    "Kafka_User": "$ConnectionString",
+    "Kafka_Password": "",
+    "MongoDB_Connection": "",
+    "MongoDB_Database": "DBOrderDevPrimeNuvem",
+    "MongoDB_Collection": "OrdersHistory"
+  }
+}
