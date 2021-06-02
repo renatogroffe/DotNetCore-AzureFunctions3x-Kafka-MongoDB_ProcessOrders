@@ -13,7 +13,7 @@ namespace FunctionAppProcessOrders
         [FunctionName("ProcessOrders")]
         public static void Run([KafkaTrigger(
             "Kafka_Broker", "orderevents",
-            ConsumerGroup = "groffelocal",
+            ConsumerGroup = "groffenuvem",
             Protocol = BrokerProtocol.SaslSsl,
             AuthenticationMode = BrokerAuthenticationMode.Plain,
             Username = "Kafka_User",
